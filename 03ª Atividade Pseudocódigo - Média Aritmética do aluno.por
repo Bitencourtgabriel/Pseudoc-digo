@@ -2,7 +2,7 @@ programa {
 
   inclua Matematica -->mat
   funcao inicio() {
-  //Declaração de variáveis.
+  //DeclaraÃ§Ã£o de variÃ¡veis.
 
   cadeia nome
   inteiro idade
@@ -10,28 +10,28 @@ programa {
   real arredonda
 
 
-  //Solicitação de dados para usuário.
+  //SolicitaÃ§Ã£o de dados para usuÃ¡rio.
 
-  escreva("Olá prezado aluno(a), por favor digite seu nome: ")
+  escreva("OlÃ¡ prezado aluno(a), por favor digite seu nome: ")
   leia(nome)
 
   escreva("Informe sua idade: ")
   leia(idade)
 
-  escreva("Digite sua nota da 1° Unidade: ")
+  escreva("Digite sua nota da 1Â° Unidade: ")
   leia(unidade1)
 
-  escreva("Digite sua nota da 2° Unidade: ")
+  escreva("Digite sua nota da 2Â° Unidade: ")
   leia(unidade2)
 
-  escreva("Digite sua nota da 3° Unidade: ")
+  escreva("Digite sua nota da 3Â° Unidade: ")
   leia(unidade3)
 
-  escreva("Digite sua nota da 4° Unidade: ")
+  escreva("Digite sua nota da 4Â° Unidade: ")
   leia(unidade4)
 
 
-  //Calculando média aritmética.
+  //Calculando mÃ©dia aritmÃ©tica.
 
   media = (unidade1+unidade2+unidade3+unidade4)/4
 
@@ -48,7 +48,7 @@ escreva(" === EXIBINDO RESULTADO ==== ")
 escreva("\nNome: ", nome)
 escreva("\nIdade: ", idade)
 escreva("\nAs suas notas foram, respectivamente")
-escreva("\nMédia: "+arredonda)
+escreva("\nMÃ©dia: "+arredonda)
 escreva("\n")  
   }
 }
