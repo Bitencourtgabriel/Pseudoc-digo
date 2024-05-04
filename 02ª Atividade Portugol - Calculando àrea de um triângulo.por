@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-  //DeclaraÁ„o de vari·veis.
+  //Declara√ß√£o de vari√°veis.
   real base, altura
   real area
 
 
-  //SolicitaÁ„o de dados ao usu·rio.
+  //Solicita√ß√£o de dados ao usu√°rio.
   escreva("Digite o valor da base: ")
   leia(base)
 
@@ -13,7 +13,7 @@ programa {
   leia(altura)
 
 
-  //Calculando ¡rea do objeto.
+  //Calculando √Årea do objeto.
   area = (base * altura) / 2
 
 
@@ -22,10 +22,10 @@ programa {
   limpa()
 
   escreva(" === EXIBINDO RESULTADO === ")
-  escreva("\nAltura do tri‚ngulo: ",altura)
-  escreva("\nBase do tri‚ngulo: ", base) 
+  escreva("\nAltura do tri√¢ngulo: ",altura)
+  escreva("\nBase do tri√¢ngulo: ", base) 
   ("\n")
-  escreva("\nA ·rea do tri‚ngulo È igual ‡: ", area)
+  escreva("\nA √°rea do tri√¢ngulo √© igual √†: ", area)
 
 
   }
